@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <article>
+
+    <!-- Left Section -->
+    <section class="left-section">
+      <h1>Learn to code by watching others</h1>
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable. </p>
+
+        <div class="ball ball1"></div>
+        <div class="ball ball2"></div>
+        <div class="ball ball3"></div>
+        <div class="ball ball4"></div>
+        <div class="ball ball5"></div>
+    </section>
+
+    <!-- Right Section -->
+    <section class="right-section">
+
+      <a href="#">
+        <button class="trial-btn">Try it free 7 days <span>then $20/mo. thereafter</span></button>
+      </a>
+
+      <form action="#" id="form" autocomplete="on">
+
+        <div class="input input_plc">
+          <input type="text" name="fname" id="fname" placeholder="First Name">
+          <span class="info" id="error-text" data-error="First Name cannont be empty"></span>
+          <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+            <g fill="none" fill-rule="evenodd">
+              <circle fill="#FF7979" cx="12" cy="12" r="12" />
+              <rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1" />
+              <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1" />
+            </g>
+          </svg>
+
+        </div>
+
+        <div class="input input_plc">
+          <input type="text" name="lnane" id="lname" placeholder="Last Name">
+          <span class="info" id="error-text" data-error="Last Name cannot be empty"></span>
+          <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+            <g fill="none" fill-rule="evenodd">
+              <circle fill="#FF7979" cx="12" cy="12" r="12" />
+              <rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1" />
+              <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1" />
+            </g>
+          </svg>
+
+        </div>
+
+        <div class="input input_plc">
+          <input type="email" name="email" id="email" placeholder="Email Address">
+          <span class="info" id="error-text" data-error="Looks like this is not an email"></span>
+          <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+            <g fill="none" fill-rule="evenodd">
+              <circle fill="#FF7979" cx="12" cy="12" r="12" />
+              <rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1" />
+              <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1" />
+            </g>
+          </svg>
+
+        </div>
+
+        <div class="input input_plc">
+          <input type="password" name="psw" id="psw" placeholder="Password">
+          <span class="info" id="error-text" data-error="Password cannot be empty"></span>
+          <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+            <g fill="none" fill-rule="evenodd">
+              <circle fill="#FF7979" cx="12" cy="12" r="12" />
+              <rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1" />
+              <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1" />
+            </g>
+          </svg>
+
+        </div>
+
+        <div class="input">
+          <input type="submit" id="submitButton" value="Claim your free trial">
+        </div>
+
+        <p>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+      </form>
+    </section>
+  </article>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
